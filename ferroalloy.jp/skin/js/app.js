@@ -1,7 +1,3 @@
-/* 最新最全最好的Bootstrap模板：http://www.bootstrapmb.com
-   Version: 1.0.0
-   File Description: Main JS file of the template
-*/
 (function ($) {
 
     'use strict';
