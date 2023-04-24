@@ -544,6 +544,11 @@ p {
 .home-page-title h1 {
     font-size: 44px;
 }
+.home-page-title h2{
+	font-size: 13px;
+    color: #ffff;
+    line-height: 25px;
+}
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: #fff;
