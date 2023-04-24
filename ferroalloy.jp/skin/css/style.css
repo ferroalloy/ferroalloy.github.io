@@ -1051,6 +1051,9 @@ PROJECT DETAILS
 }
 .project-details li h6 {
     font-size: 15px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .project-details-icon i {
     font-size: 16px;
