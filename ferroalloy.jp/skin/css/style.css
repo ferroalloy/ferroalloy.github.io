@@ -1051,7 +1051,7 @@ PROJECT DETAILS
     border-top: 1px solid #eeeeee;
     padding: 17px 0;
 }
-.project-details li h6 {
+.project-details li > .h6 {
     font-size: 15px;
 	overflow: hidden;
     text-overflow: ellipsis;
