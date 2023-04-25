@@ -376,7 +376,9 @@ p {
     padding-left: 7px;
     padding-right: 7px;
 }
-
+.position-relative > .h3{
+	font-size:1.15rem;
+}
 
 /****************
     8. CLIENT
