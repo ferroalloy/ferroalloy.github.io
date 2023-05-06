@@ -45,7 +45,7 @@ a {
     text-decoration: none !important;
     outline: none;
 }
-.table td, .table th{
+.table td,.table th{
 	vertical-align:middle!important;	
 }
 
