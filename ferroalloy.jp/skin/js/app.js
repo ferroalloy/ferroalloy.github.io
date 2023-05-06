@@ -85,7 +85,7 @@
             $.post(action, {
                     name: $('#name').val(),
                     email: $('#email').val(),
-                    message: $('#message').val(),
+                    comments: $('#comments').val(),
                 },
                 function(data) {
                     document.getElementById('message').innerHTML = data;
