@@ -45,7 +45,9 @@ a {
     text-decoration: none !important;
     outline: none;
 }
-
+.table td, .table th{
+	vertical-align:middle!important;	
+}
 
 /*****************
     2. HELPER
