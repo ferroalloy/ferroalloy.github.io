@@ -69,8 +69,7 @@
         preloader: false,
         fixedContentPos: false
     });
-
-    // Contact
+})(jQuery)
     function contactform() {
       let postForm = document.querySelector("#postform")
       var nameInp = postForm.querySelector("input[name='name']")
@@ -91,10 +90,4 @@
         commentsTex.setAttribute('placeholder', '内容不能为空！');
         return false;
       }
-    }		
-
-        
-
-        
-    
-})(jQuery)
+    }
