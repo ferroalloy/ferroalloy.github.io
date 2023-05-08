@@ -77,17 +77,17 @@
       var commentsTex = postForm.querySelector("textarea[name='comments']")
 
       if (nameInp.value == "") {
-        nameInp.setAttribute('placeholder', '用户名不能为空！');
+        nameInp.setAttribute('placeholder', '氏名は空欄にすることはできません！');
         return false;
       } else if (emailInp.value == "") {
-        emailInp.setAttribute('placeholder', '邮箱不能为空！');
+        emailInp.setAttribute('placeholder', 'メールボックスを空にすることはできません！');
         return false;
       } else if (!/\S+@\S+\.\S+/g.test(emailInp.value)) {
         emailInp.value = ''
-        emailInp.setAttribute('placeholder', '请输入正确的邮箱格式！');
+        emailInp.setAttribute('placeholder', '正しいメールアドレスを入力する！');
         return false;
       } else if (commentsTex.value == "") {
-        commentsTex.setAttribute('placeholder', '内容不能为空！');
+        commentsTex.setAttribute('placeholder', 'コンテンツが空であることはできません！');
         return false;
       }
     }
