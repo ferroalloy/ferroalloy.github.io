@@ -71,37 +71,30 @@
     });
 
     // Contact
-    $('#contact-form').submit(function() {
+    function contactform() {
+      let postForm = document.querySelector("#postform")
+      var nameInp = postForm.querySelector("input[name='name']")
+      var emailInp = postForm.querySelector("input[name='email']")
+      var commentsTex = postForm.querySelector("textarea[name='comments']")
 
-        var action = $(this).attr('action');
-
-        $("#message").slideUp(750, function() {
-            $('#message').hide();
-
-            $('#submit')
-                .before('')
-                .attr('disabled', 'disabled');
-
-            $.post(action, {
-                    name: $('#name').val(),
-                    email: $('#email').val(),
-                    comments: $('#comments').val(),
-                },
-                function(data) {
-                    document.getElementById('message').innerHTML = data;
-                    $('#message').slideDown('slow');
-                    $('#cform img.contact-loader').fadeOut('slow', function() {
-                        $(this).remove()
-                    });
-                    $('#submit').removeAttr('disabled');
-                    if (data.match('success') != null) $('#cform').slideUp('slow');
-                }
-            );
-
-        });
-
+      if (nameInp.value == "") {
+        nameInp.setAttribute('placeholder', '用户名不能为空！');
         return false;
+      } else if (emailInp.value == "") {
+        emailInp.setAttribute('placeholder', '邮箱不能为空！');
+        return false;
+      } else if (!/\S+@\S+\.\S+/g.test(emailInp.value)) {
+        emailInp.value = ''
+        emailInp.setAttribute('placeholder', '请输入正确的邮箱格式！');
+        return false;
+      } else if (commentsTex.value == "") {
+        commentsTex.setAttribute('placeholder', '内容不能为空！');
+        return false;
+      }
+    }		
 
-    });
+        
+
+        
     
 })(jQuery)
