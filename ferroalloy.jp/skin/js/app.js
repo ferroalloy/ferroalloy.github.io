@@ -69,7 +69,7 @@
         preloader: false,
         fixedContentPos: false
     });
-})(jQuery)
+});
     function contactform() {
       let postForm = document.querySelector("#postform")
       var nameInp = postForm.querySelector("input[name='name']")
@@ -91,3 +91,4 @@
         return false;
       }
     }
+(jQuery)
