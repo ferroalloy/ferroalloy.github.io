@@ -84,7 +84,7 @@
         return false;
       } else if (!/\S+@\S+\.\S+/g.test(emailInp.value)) {
         emailInp.value = ''
-        emailInp.setAttribute('placeholder', '正しく入力されているか、ご確認ください。');
+        emailInp.setAttribute('placeholder', 'ご確認ください。');
         return false;
       } else if (commentsTex.value == "") {
         commentsTex.setAttribute('placeholder', '入力してください。');
