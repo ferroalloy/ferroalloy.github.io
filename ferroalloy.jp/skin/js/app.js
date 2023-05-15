@@ -17,7 +17,7 @@
 
     $('.has-submenu a').on('click', function(e) {
         if ($(window).width() < 992) {
-            e.preventDefault();
+            //e.preventDefault();
             $(this).parent('li').toggleClass('open').find('.submenu:first').toggleClass('open');
         }
     });
