@@ -61,7 +61,6 @@
     });
 
     //  VIDEO 
-$(document).ready(function() {
     $('.video-play-icon').magnificPopup({
         disableOn: 700,
         type: 'iframe',
@@ -70,7 +69,6 @@ $(document).ready(function() {
         preloader: false,
         fixedContentPos: false
     });
-});
 })(jQuery)
     function contactform() {
       let postForm = document.querySelector("#postform")
