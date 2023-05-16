@@ -61,14 +61,16 @@
     });
 
     //  VIDEO 
+$(document).ready(function() {
     $('.video-play-icon').magnificPopup({
         disableOn: 700,
-        type: 'ajax',
+        type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
         fixedContentPos: false
     });
+});
 })(jQuery)
     function contactform() {
       let postForm = document.querySelector("#postform")
