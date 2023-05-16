@@ -63,7 +63,7 @@
     //  VIDEO 
     $('.video-play-icon').magnificPopup({
         disableOn: 700,
-        type: 'iframe',
+        type: 'ajax',
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
