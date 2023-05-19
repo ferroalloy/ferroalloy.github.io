@@ -588,7 +588,7 @@ p {
 ******************/
 
 .counter-bg {
-    background-image: url(../images/counter-bg-1.jpg);
+    background-image: url(../images/counter-bg-1.webp);
     background-size: cover;
     position: relative;
     background-position: center center;
