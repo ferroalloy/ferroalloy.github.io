@@ -494,6 +494,13 @@ p {
 .blog-info-desc p img{
  max-width:100%;	
 }
+.overfollow{
+display: inline-block;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;	
+}
 /****************
     10. FOOTER
 ******************/
