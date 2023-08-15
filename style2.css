@@ -1,11 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
-    @font-face {
-                font-family: iconfont;
-                src: url(//at.alicdn.com/t/c/font_3934212_lwetrpn8v2l.woff2?t=1679986031426) format("woff2"),url(//at.alicdn.com/t/c/font_3934212_lwetrpn8v2l.woff?t=1679986031426) format("woff"),url(//at.alicdn.com/t/c/font_3934212_lwetrpn8v2l.ttf?t=1679986031426) format("truetype")
-            }
-
 .sider-contact {
     box-sizing: border-box;
     -webkit-backdrop-filter: blur(10px);
