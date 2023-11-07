@@ -501,6 +501,44 @@ display: inline-block;
     text-overflow: ellipsis;
     white-space: nowrap;	
 }
+ .pagination {
+  margin-top: 40px;
+}
+
+.page-link {
+  border: 0;
+  border-radius: 10px;
+  color: #717275;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5px;
+  padding: 10px 20px;
+}
+
+.page-link:hover,
+.page-item:first-child .page-link:hover,
+.page-item:last-child .page-link:hover {
+  background-color:#80d0c7;
+  color: #ffffff;
+}
+
+.page-item:first-child .page-link {
+  margin-right: 10px;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+.active>.page-link, .page-link.active {
+  background-color: #80d0c7!important;
+  border-color: #80d0c7!important;
+}
+nav ul li{
+color: #717275;
+font-weight: 400;
+}
 /****************
     10. FOOTER
 ******************/
