@@ -1114,7 +1114,14 @@ PROJECT DETAILS
     color: #00aaf9;
     transition: all 0.5s;
 }
-
+.product-overfollow	{
+	color:red;
+	display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
 /****************
     WHAT WE DID
