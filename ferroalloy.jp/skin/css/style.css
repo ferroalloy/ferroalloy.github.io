@@ -1478,6 +1478,9 @@ TEAM DETAILS HOME
     overflow: hidden;
     display: block;
 }
+.blog-list-img img{
+	width:100%;
+}
 .blog-list-social {
     position: absolute;
     bottom: 0;
