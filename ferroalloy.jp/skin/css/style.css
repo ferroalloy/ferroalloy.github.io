@@ -45,10 +45,10 @@ a {
     text-decoration: none !important;
     outline: none;
 }
-p a{
+.blog-info-desc p a{
     padding: 0 2px;
 }
-p a:hover{
+.blog-info-desc p a:hover{
 transform: translateY(-1px);
     display: inline-block;
     transition: all .5s;
