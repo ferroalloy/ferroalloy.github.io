@@ -53,6 +53,7 @@ transform: translateY(-1px);
     display: inline-block;
     transition: all .5s;
     border-bottom: 1px solid;
+	height:1.3rem;
 }
 .table td,.table th{
 	vertical-align:middle!important;	
