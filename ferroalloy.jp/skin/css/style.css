@@ -407,8 +407,8 @@ p {
 }
 
 .testi-img::before {
-    left: 44px;
-    top: 32px;
+    left: 37px;
+    top: 16px;
     content: " ";
     height: 112px;
     width: 180px;
