@@ -30,7 +30,7 @@
     font-family: 'ProximaNova-Regular_0';
 }
 .right-nav .btn-tit {
-	transform: scale(.8)
+	transform: scale(.8);
 	font-size:12px;/*add*/
 }
 .right-nav li {
