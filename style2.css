@@ -31,9 +31,10 @@
 }
 .right-nav .btn-tit {
 	transform: scale(.8)
+	font-size:12px;/*add*/
 }
 .right-nav li {
-    height: 3.5rem;
+    height: 4rem;/*3.5*/
     position: relative;
     width: 3rem;
 }
@@ -74,7 +75,7 @@ border-radius:0 0 0 .8rem;
 }
 .right-nav .iconfonts {
     display: block;
-    font-size: 1.2rem;
+    font-size: 28px;/*1.2*/
     margin-bottom: 0.2rem;
     transition: all .3s ease;
 }
