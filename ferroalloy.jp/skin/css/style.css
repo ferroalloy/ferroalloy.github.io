@@ -540,7 +540,9 @@ display: inline-block;
   background-color: #f0f8ff;
   border-radius: 10px;
 }
-
+.pagination .page-num{
+	display:none;
+}
 .active>.page-link, .page-link.active {
   background-color: #80d0c7!important;
   border-color: #80d0c7!important;
