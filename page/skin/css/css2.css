@@ -157,6 +157,20 @@
   width: 100%;
   transition: all 0.3s;
 }
+.ab_ditxt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  width: 65%;
+  padding: 50px;
+}
+.ab_ditxt h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-family: "Roboto", Sans-serif;
+}
 @media screen and (max-width:1600px) {
 	.ab_com {
     padding-bottom: 65px;
@@ -169,10 +183,21 @@
   .warper {
     width: 86%;
   }
+.ab_ditxt {
+    width: 60%;
+    padding: 40px;
+  }
+  .ab_ditxt h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
 }
 @media screen and (max-width:1280px) {
   .warper {
     width: 88%;
+  }
+	.ab_ditxt {
+    padding: 30px;
   }
 }
 @media screen and (max-width:1024px) {
@@ -185,14 +210,36 @@
 	.ab_abpic {
     width: 100%;
   }
+	  .ab_ditxt h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width:768px) {
+  .ab_ditxt {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
 }
 @media screen and (max-width:640px) {
 	.ab_com {
     padding-bottom: 30px;
   }
+	  .ab_ditxt h2 {
+    font-size: 26px;
+    line-height: 28px;
+  }
 }
 @media screen and (max-width:480px) {
 	 .ab_com {
     padding-bottom: 12px;
+  }
+	  .ab_ditxt {
+    padding: 10px;
+  }
+  .ab_ditxt h2 {
+    font-size: 24px;
+    line-height: 26px;
   }
 }
