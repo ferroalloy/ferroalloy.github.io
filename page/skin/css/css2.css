@@ -171,6 +171,18 @@
   line-height: 42px;
   font-family: "Roboto", Sans-serif;
 }
+.ab_dmes {
+  margin-top: 24px;
+}
+.ab_dmes p {
+  font-size: 16px;
+  margin-bottom: 14px;
+  line-height: 24px;
+  color: #888;
+}
+.ab_dmes p:last-child {
+  margin-bottom: 0;
+}
 @media screen and (max-width:1600px) {
 	.ab_com {
     padding-bottom: 65px;
@@ -190,6 +202,9 @@
   .ab_ditxt h2 {
     font-size: 30px;
     line-height: 35px;
+  }
+	  .ab_dmes {
+    margin-top: 18px;
   }
 }
 @media screen and (max-width:1280px) {
@@ -214,6 +229,9 @@
     font-size: 28px;
     line-height: 30px;
   }
+	  .ab_dmes p {
+    margin-bottom: 0;
+  }
 }
 @media screen and (max-width:768px) {
   .ab_ditxt {
@@ -230,6 +248,9 @@
     font-size: 26px;
     line-height: 28px;
   }
+	  .ab_dmes {
+    margin-top: 8px;
+  }
 }
 @media screen and (max-width:480px) {
 	 .ab_com {
@@ -241,5 +262,8 @@
   .ab_ditxt h2 {
     font-size: 24px;
     line-height: 26px;
+  }
+	  .ab_dmes p, .ab_dpt p {
+    line-height: 22px;
   }
 }
